@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星火服务平台首页</title>
+    <link rel="shorcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/新闻动态.css">
+    <link rel="stylesheet" href="css/顶部和底部.css">
+    <link rel="stylesheet" href="lib/swiper-5.3.8/package/css/swiper.min.css">
+</head>
+
+<body>
+    <div class="box">
+        <!-- 头部 -->
+        <header class="top">
+            <div class="top-left">
+                <img src="images/logo.jpg" alt="">
+            </div>
+            <div id="btn12" class="top-right">
+                <button class="btn8"><a href="登录.html">登录</a></button>
+            </div>
+            <div class="top-mid">
+                <ul class="top-mid-bq">
+                    <li class="tab select8"><a href="新闻动态.html">新闻动态</a></li>
+                    <li class="tab"><a href="大赛报名.html">大赛报名</a></li>
+                    <li><a href="http://bbs.myhope365.com/" target="_blank">天亮社区</a></li>
+                    <li class="tab"><a href="关于我们.html">关于我们</a></li>
+                    <li class="tab" style="display: none;" id="li1"><a href="个人中心.html">个人中心</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- 轮播图 -->
+        <section>
+            <div class="jd-banner">
+                <div class="swiper-container swiper-box">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/关于我们.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/天亮教育.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/尚云科技.jpg" alt="">
+                        </div>
+
+                    </div>
+                    <!-- 如果需要分页器 -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- 如果需要导航按钮 -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <!--新闻动态  -->
+        <section>
+            <div class="mid-top">
+                <img src="images/1.png" alt="">
+            </div>
+            <!-- 单选按钮 -->
+            <div class="box2">
+                <div class="mid-bottom">
+                    <ul id="tablist">
+                        <li> <input type="radio" name="optionsRadios" checked>通知公告</li>
+                        <li> <input type="radio" name="optionsRadios">创新活动</li>
+                        <li> <input type="radio" name="optionsRadios">荣誉榜</li>
+                    </ul>
+                </div>
+                <div class="mid-right">
+                    <div class="content-box">
+                        <div id="newId" class="content contentin">
+                            <img id="img1" src="images/尚云科技.jpg" alt=""
+                                style="width:261px;height:150px;float:left; padding-right: 50px;">
+                            <h3 id="title1">首届星火杯创新创业大赛正式开启</h3>
+                            <p id="content1" class="p1">简介：打造好平台，营造好氛围，赛出好结果的三好开篇大赛</p>
+                            <p class="p2" style="float: left;"><a  href="阅读全文.html">阅读全文>></a> </p>
+                            <p id="time1" style="float: right; font-size: 14px;color: gray;">时间：2020-02-20</p>
+                        </div>
+                       <div id="newId1" class="content"> 
+                            <img id="img2" src="images/天亮教育.jpg" alt=""
+                                style="width:261px;height:150px;float:left;padding-right: 50px;">
+                            <h3 id="title2">创新创业，他们最行！</h3>
+                            <p id="content2" class="p1">简介：创新创业，他们最行！2019年中国创新方法大赛总决赛在长沙举行</p>
+                            <p class="p2" style="float: left;"><a  href="阅读全文.html">阅读全文>></a></p>
+                            <p id="time2" style="float: right; font-size: 14px;color: gray;">时间：2020-02-20</p>
+                        </div>
+                        <div id="newId2" class="content">
+                            <img id="img3" src="images/创新创业大赛.jpg" alt=""
+                                style="width:261px;height:150px;float:left;padding-right: 50px;">
+                            <h3 id="title3">天亮教育荣获国家高新技术企业</h3>
+                            <p id="content3" class="p1">简介：国家级高含金量资质认证</p>
+                            <p class="p2" style="float: left;"><a   href="阅读全文.html">阅读全文>></a></p>
+                            <p id="time3" style="float: right; font-size: 14px;color: gray;">时间：2020-02-20</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 定位的图标 -->
+        <div id="QQ">
+            <div class="QQ1">
+                <img src="images/QQ.png" />
+                <p><a href="http://wpa.qq.com/msgrd?v=3&uin=577405209&site=qq&me"target="_blank">QQ客服</a></p>
+            </div>
+            <div class="QQ1" id="QQ1">
+                <img src="images/QQ群.png" />
+                <p><a href="#" class="a1">加入社群</a></p>
+                <div id="qq">
+                    <div>
+                        <img src="images/qq群1.jpg" />
+                        <img src="images/qq群2.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- 页脚栏 -->
+    <section>
+        <div class="box4">
+            <div class="box5">
+                <span> &nbsp;&nbsp;&nbsp;&nbsp; < &nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        <span> &nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp; > &nbsp;&nbsp;&nbsp;&nbsp; </span>
+            </div>
+        </div>
+    </section>
+    <!-- 底部 -->
+    <footer>
+        <div id="Tabbar">
+            <!-- 中间文本 -->
+            <div class="bottomLeft">
+                <div style="height: 60px; line-height: 50px; font-size: 14px; color: cornsilk;">友情链接：
+                    <a href="#"> 天亮公开课资源 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#"> 尚云科技 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#"> 星云大数据平台 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#"> 天亮舆情监控系统 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#"> IT毕业设计 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#"> 网思安网络安全课堂 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                </div>
+                <div class="box1">
+                    copyright@版权所有 天亮教育 网站标识码：23667788978 备案编号：冀ICP备2356645765765
+                </div>
+                <div class="box1">
+                    电子邮箱：623143506@qq.com 技术支持：河北尚云信息科技有限公司
+                </div>
+            </div>
+            <!-- 右边二维码 -->
+            <div class="publicNumber">
+                <img src="images/微信公众号.jpg" alt="">
+                <br>
+                <span style="font-size: 14px;">
+                    微信公众号
+                </span>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+<script src="lib/js/jquery-3.4.1.min.js"></script>
+<script src="lib/swiper-5.3.8/package/js/swiper.min.js"></script>
+<script src="js/新闻列表.js"></script>
+<script src="js/头部和底部.js"></script>
+
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        direction: 'horizontal', // 水平切换选项
+        loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // 如果需要滚动条
+        /*   scrollbar: {
+            el: '.swiper-scrollbar',
+          }, */
+    })
+    //单选框切换
+    $(document).ready(function () {
+        $("#tablist li").each(function (index) {
+            $(this).click(function () {
+                $(".contentin").removeClass("contentin");
+                $(".tabin").removeClass("tabin");
+                $(".content-box div").eq(index).addClass("contentin");
+                $(this).addClass("tabin")
+            });
+        })
+    })
+    //登录
+    if (localStorage.isLogin) {
+      $("#btn12").hide();
+      $("#li1").show()
+    }else{
+      $("#btn12").show();
+      $("#li1").hide()
+    }
+    //QQ图标
+    $("#QQ1").mouseover(function () {
+        $("#qq").show();
+    });
+    $("#QQ1").mouseout(function () {
+        $("#qq").hide();
+    });
+</script>
+</script>
+
+</html>

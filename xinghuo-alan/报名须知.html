@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>报名须知</title>
+    <link rel="shorcut  icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/顶部和底部.css">
+    <link rel="stylesheet" href="css/报名须知.css">
+</head>
+<body>
+    <div class="box">
+  <!-- 头部 -->
+  <header class="top">
+    <div class="top-left">
+        <img src="images/logo.jpg" alt="">
+    </div>
+    <div id="btn12" class="top-right">
+        <button class="btn8"><a href="登录.html">登录</a></button>
+    </div>
+    <div class="top-mid">
+        <ul class="top-mid-bq">
+            <li class="tab "><a href="新闻动态.html">新闻动态</a></li>
+            <li class="tab select8"><a href="大赛报名.html">大赛报名</a></li>
+            <li ><a href="http://bbs.myhope365.com/" target="_blank">天亮社区</a></li>
+            <li class="tab"><a href="关于我们.html">关于我们</a></li>
+            <li class="tab" style="display: none;" id="li1"><a href="个人中心.html">个人中心</a></li>
+        </ul>
+    </div>
+</header>
+    <div class="pic"></div>
+    <section class="box-main">
+        <div class="box2">
+            <img src="images/2.jpg" />
+        </div>
+        <div class="box3">
+          <div class="box3-1">
+            <a class="a1" href="大赛报名.html"> <img src="images/长箭头.png"></a>
+          </div>
+          <div class="box3-2">
+            <a class="a2" href="大赛报名.html">返回上一页</a>
+          </div>
+        </div>
+        <div class="box4">
+            <p class="p-box">大赛报名</p>
+            <p>1、参赛条件</p>
+            <p style="margin-bottom: 20px;">
+              &nbsp; &nbsp;
+              &nbsp;由来自高校、企业、科研院所、技术专家、从事创新创业及其服务的其他事业单位、新型研发机构等单位的人员所组成的团队可选择相应专项赛事进行报名、参赛。报名参赛不收取任何费用。
+            </p>
+            <p>2、比赛内容</p>
+            <p style="margin-bottom: 20px;">
+              &nbsp; &nbsp;
+              &nbsp;符合既定的四个主题方向即可，具体形式可以是PPT、实物效果演示等具备可评估性、可量化、可对比的均可。
+            </p>
+            <p>3、竞赛形式</p>
+            <p style="margin-bottom: 20px;">
+              &nbsp; &nbsp; &nbsp;
+              比赛形式为专家线上初评、线下路演后专家打分相结合，最终由路演后选手项目PPT演示得分、专家问辩评分组成总分。
+            </p>
+            <p>4、比赛流程</p>
+            <p style="margin-bottom: 20px;">
+              &nbsp; &nbsp; &nbsp;
+              项目报名后通过形式审查进入初赛，初赛由专家组成员汇审进行线上评分，成绩合格进入决赛，决赛评选一二三等奖及优胜参与奖。
+            </p>
+            <p>5、奖项设置</p>
+            <p style="margin-bottom: 20px;">
+              &nbsp; &nbsp; &nbsp;
+              大赛设一等奖、二等奖、三等奖及优胜参与奖，占项目总数比率为10%、20%、30%、40%。
+            </p>
+            <p>6、其他</p>
+            <p style="margin-bottom: 20px;">
+              &nbsp; &nbsp; &nbsp;
+              推荐多了解天亮教育的课程体系，并进行认真的学习和实践，对于参加技术性内容比赛会很有帮助。
+            </p>
+          </div>
+    </section>
+  <!-- 底部 -->
+    <footer>
+            <div  id="Tabbar">
+                <!-- 中间文本 -->
+                <div class="bottomLeft">
+                    <div style="height: 60px; line-height: 50px; font-size: 14px; color: cornsilk;">友情链接：
+                    <a   href="#"> 天亮公开课资源 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a   href="#"> 尚云科技 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a   href="#"> 星云大数据平台 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a   href="#"> 天亮舆情监控系统 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a   href="#"> IT毕业设计 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a   href="#"> 网思安网络安全课堂 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                   </div>
+                    <div class="box1">
+                      copyright@版权所有 天亮教育  网站标识码：23667788978   备案编号：冀ICP备2356645765765  
+                     </div>
+                     <div class="box1"> 
+                         电子邮箱：623143506@qq.com  技术支持：河北尚云信息科技有限公司
+                     </div>
+                    </div>
+                    <!-- 右边二维码 -->
+                    <div class="publicNumber">
+                        <img  src="images/微信公众号.jpg" alt="">
+                        <br >
+                        <span  style="font-size: 14px;">
+                         微信公众号
+                        </span>
+                    </div>
+                </div>
+        </footer>
+    </div>
+</body>
+<script src="js/头部和底部.js"></script>
+<script>
+    if (localStorage.isLogin) {
+      $("#btn12").hide();
+      $("#li1").show()
+    }else{
+      $("#btn12").show();
+      $("#li1").hide()
+    }
+</script>
+</html>

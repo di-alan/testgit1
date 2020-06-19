@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.top {
+    width: 100%;
+    height: 60px;
+  /*   border: 1px solid red; */
+}
+.top-left {
+    width: 35%;
+  /*   border: 1px solid yellow; */
+    float: left;
+}
+.top-left img {
+    width: 359px;
+    height: 46px;
+    margin-top: 7px;
+    margin-left: 75px;
+}
+.top-mid {
+    width: 38%;
+    height: 50px;
+    margin-top: 5px;
+    float: right;
+}
+.top-mid-bq {
+    height: 50px;
+    margin-top: -5px;
+    list-style: none;
+    text-align: center;
+    padding-right: 50px;
+   /*  border: 1px solid red; */
+}
+.top-mid-bq li {
+    height: 100%;
+    width: 100px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+}
+.top-mid-bq a {
+    text-decoration: none;
+    color: black;
+}
+.top-mid-bq a:hover {
+    color: #00cf8c;
+}
+.top-mid-bq>li:hover {
+    border-bottom: 2px solid #00cf8c;
+}
+.select8 {
+    
+    border-bottom: 2px solid #00cf8c;
+}
+.select8 >a {
+    color: #00cf8c;
+}
+.top-right {
+    width: 15%;
+    height: 100%;
+   /*  border: 1px solid red; */
+    float: right;
+}
+.top-right .btn8 {
+    width: 80px;
+    height: 36px;
+   /*  border: 1px solid  #00cf8c; */
+    background-color:  #00cf8c;
+    border: none;
+    margin-top: 10px;
+    color: seashell;
+}
+.top-right .btn8 a {
+    text-decoration: none;
+    color: white;
+}
+#Tabbar {
+    width: 100%;
+    height: 140px;
+    padding: 10px;
+    /* margin-top: 30px; */
+    background-color:  #00cf8c;
+    position: relative;
+}
+.bottomLeft a {
+    color: seashell;
+    text-decoration: none;
+    text-align: center;
+}
+.bottomLeft div {
+    text-align: center;
+}
+.box1 {
+    color: seashell;
+}
+.publicNumber {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+.publicNumber > span {
+   margin-left: 15px;
+}

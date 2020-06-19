@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我要报名</title>
+  <title>报名须知</title>
+  <link rel="shorcut  icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/顶部和底部.css">
+  <link rel="stylesheet" href="css/我要报名.css">
+</head>
+
+<body>
+  <div class="box">
+    <!-- 头部 -->
+    <header class="top">
+      <div class="top-left">
+          <img src="images/logo.jpg" alt="">
+      </div>
+      <div id="btn12" class="top-right">
+          <button class="btn8"><a href="登录.html">登录</a></button>
+      </div>
+      <div class="top-mid">
+          <ul class="top-mid-bq">
+              <li class="tab "><a href="新闻动态.html">新闻动态</a></li>
+              <li class="tab select8"><a href="大赛报名.html">大赛报名</a></li>
+              <li class="tab"><a href="http://bbs.myhope365.com/" target="_blank">天亮社区</a></li>
+              <li class="tab"><a href="关于我们.html">关于我们</a></li>
+              <li class="tab" style="display: none;" id="li1"><a href="个人中心.html">个人中心</a></li>
+          </ul>
+      </div>
+  </header>
+    <div class="pic"></div>
+    <section class="box-main">
+      <div class="box2">
+        <img src="images/2.jpg" />
+      </div>
+      <div class="box3">
+        <div class="box3-1">
+        <a class="a1" href="大赛报名.html"> <img src="images/长箭头.png"></a>
+      </div>
+      <div class="box3-2">
+        <a class="a2" href="大赛报名.html">返回上一页</a>
+      </div>
+      </div>
+      <p> 大赛报名</p>
+      <div class="box-all">
+        <div class="box-all-top">项目名称</div>
+        <div class="box-all-main">
+          作品名称：<input type="text" placeholder="&nbsp;请输入作品名称(30字以内)" style="margin-right: 140px;" required>
+          作品方向：
+          <select>
+            <option selected>请选择</option>
+            <option>应用创新类</option>
+            <option>文创艺术类</option>
+            <option>技术创新类</option>
+            <option>营销创意类</option>
+          </select>
+        </div>
+        <div class="box-all-top">项目介绍信息</div>
+        <div class="box-all-main">
+          所属行业：<input type="text" placeholder="&nbsp;请输入所属行业(30字以内)" style="margin-right: 140px;" required>
+          指导老师：<input type="text" placeholder="&nbsp;请输入指导老师(30字以内)" required>
+        </div>
+        <div class="box-all-footer">
+          <span style="vertical-align: top;">主要创新点：</span>
+          <textarea type="text" placeholder="请输入主要创新点（500字以内）" maxlength="500" style=" height: 60px; "
+            required></textarea>
+        </div>
+        <div class="box-all-footer" style="margin-left: -15px;">
+          <span style="vertical-align: top;">推广应用价值：</span>
+          <textarea type="text" placeholder="请输入主要推广应用价值（250字以内）" maxlength="250" style="height: 60px;"
+            required></textarea>
+        </div>
+        <div class="box-all-footer" style="text-indent: 16px;">
+          <span style="vertical-align: top;">作品简介：</span>
+          <textarea type="text" placeholder="请输入作品简介（800字以内）" maxlength="800" style="height: 160px; "
+            required></textarea>
+        </div>
+        <div class="box-all-footer" style="text-indent: 16px;">
+          <span style="vertical-align: top;">附件上传：</span>
+          <textarea type="text" style="height: 60px; width: 900px; resize: none;" required>
+            <div class="inner">
+                <button class="btn">文件上传</button>
+            </div>
+        </textarea>
+        </div>
+        <div class="box-all-top">参赛者</div>
+        <div class="box-all-top" style="background: none;">参赛者(1):</div>
+        <div class="box-all-main">
+          姓名：<input type="text" placeholder="&nbsp;请输入姓名30字以内)" style="margin-right: 200px;" required>
+          职务：<input type="text" placeholder="&nbsp;请输入职务(30字以内)" required>
+        </div>
+        <div class="box-all-main">
+          性别：
+          <select style="margin-right: 200px;">
+            <option selected>请选择</option>
+            <option>男</option>
+            <option>女</option>
+          </select>
+          年龄：<input type="number" placeholder="&nbsp;请输入年龄(30字以内)" required>
+        </div>
+        <div class="box-all-main" style="     margin-left: 124px;">
+          联系电话：<input type="text" placeholder="&nbsp;请输入所属行业(30字以内)" style="margin-right: 170px;" required
+            pattern="^(13[0-9]|14[579]|15[0-3,5-9]|16[6]|17[0135678]|18[0-9]|19[89])\\d{8}$">
+          身份证号：<input type="text" placeholder="&nbsp;请输入身份证号" pattern="\d{15}|\d{18}" required>
+        </div>
+        <div class="box-all-top">参赛者</div>
+        <div class="box-all-top" style="background: none;">参赛者(2):</div>
+        <div class="box-all-main">
+          姓名：<input type="text" placeholder="&nbsp;请输入姓名" style="margin-right: 200px;" required>
+          职务：<input type="text" placeholder="&nbsp;请输入职务" required>
+        </div>
+        <div class="box-all-main">
+          性别：
+          <select style="margin-right: 200px;">
+            <option selected>请选择</option>
+            <option>男</option>
+            <option>女</option>
+          </select>
+          年龄：<input type="number" placeholder="&nbsp;请输入年龄" requiredpattern="^d{m,n}$">
+        </div>
+        <div class="box-all-main" style="    margin-left: 124px;">
+          联系电话：<input type="text" placeholder="&nbsp;请输入所属行业(30字以内)" style="margin-right: 170px;"
+            pattern="^(13[0-9]|14[579]|15[0-3,5-9]|16[6]|17[0135678]|18[0-9]|19[89])\\d{8}$" required>
+          身份证号：<input type="text" placeholder="&nbsp;请输入身份证号" pattern="\d{15}|\d{18}" required>
+        </div>
+        <div class="box-all-top">参赛者</div>
+        <div class="box-all-top" style="background: none;">参赛者(3):</div>
+        <div class="box-all-main">
+          姓名：<input type="text" placeholder="&nbsp;请输入姓名30字以内)" style="margin-right: 200px;" required>
+          职务：<input type="text" placeholder="&nbsp;请输入职务(30字以内)" required>
+        </div>
+        <div class="box-all-main">
+          性别：
+          <select style="margin-right: 200px;">
+            <option selected>请选择</option>
+            <option>男</option>
+            <option>女</option>
+          </select>
+          年龄：<input type="number" placeholder="&nbsp;请输入年龄" requiredpattern="^d{m,n}$">
+        </div>
+        <div class="box-all-main" style="    margin-left: 124px;">
+          联系电话：<input type="text" placeholder="&nbsp;请输入所属行业(30字以内)" style="margin-right: 170px;"
+            pattern="^(13[0-9]|14[579]|15[0-3,5-9]|16[6]|17[0135678]|18[0-9]|19[89])\\d{8}$" required>
+          身份证号：<input type="text" placeholder="&nbsp;请输入身份证号" pattern="\d{15}|\d{18}" required>
+        </div>
+
+        <div class="box-all-main btn9" >
+          <button>重置</button>
+          <button style="background-color: #57a3f3; color: white;">提交</button>
+        </div>
+      </div>
+    </section>
+    <!-- 底部 -->
+    <footer>
+      <div id="Tabbar">
+        <!-- 中间文本 -->
+        <div class="bottomLeft">
+          <div style="height: 60px; line-height: 50px; font-size: 14px; color: cornsilk;">友情链接：
+            <a href="#"> 天亮公开课资源 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#"> 尚云科技 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#"> 星云大数据平台 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#"> 天亮舆情监控系统 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#"> IT毕业设计 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#"> 网思安网络安全课堂 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+          </div>
+          <div class="box1">
+            copyright@版权所有 天亮教育 网站标识码：23667788978 备案编号：冀ICP备2356645765765
+          </div>
+          <div class="box1">
+            电子邮箱：623143506@qq.com 技术支持：河北尚云信息科技有限公司
+          </div>
+        </div>
+        <!-- 右边二维码 -->
+        <div class="publicNumber">
+          <img src="images/微信公众号.jpg" alt="">
+          <br>
+          <span style="font-size: 14px;">
+            微信公众号
+          </span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="lib/js/jquery-3.4.1.min.js"></script>
+<script src="js/头部和底部.js"></script>
+<script>
+  //登录
+  if (localStorage.isLogin) {
+      $("#btn12").hide();
+      $("#li1").show()
+    }else{
+      $("#btn12").show();
+      $("#li1").hide()
+    }
+</script>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人中心</title>
+  <link rel="shorcut  icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/顶部和底部.css">
+  <link rel="stylesheet" href="css/个人中心.css">
+</head>
+
+<body>
+  <div class="box">
+    <!-- 头部 -->
+    <header class="top">
+      <div class="top-left">
+        <img src="images/logo.jpg" alt="">
+      </div>
+      <div class="top-right">
+        <!--  <button class="btn"><a href="登录.html"></a></button> -->
+        <a href="个人中心.html">个人中心</a>
+        <a id="a1" style="display: none;" href="登录.html">登录</a>
+      </div>
+      <div class="top-mid">
+        <ul class="top-mid-bq">
+          <li class="tab "><a href="新闻动态.html">新闻动态</a></li>
+          <li class="tab "><a href="大赛报名.html">大赛报名</a></li>
+          <li ><a href="http://bbs.myhope365.com/" target="_blank">天亮社区</a></li>
+          <li class="tab"><a href="关于我们.html">关于我们</a></li>
+          <!-- <li class="tab" ><a href="个人中心.html">个人中心</a></li> -->
+
+
+        </ul>
+      </div>
+    </header>
+    <section class="main">
+      <div class="box-all">
+        <ul id="Ul">
+          <li class="tab1 select9">
+            <div class="tab1-left">
+              <img src="images/心.png">
+            </div>
+            <div class="tab1-right"><span>基本信息</span></a>
+            </div>
+          </li>
+          <li class="tab1">
+            <div class="tab1-left">
+              <img src="images/信息.png" />
+            </div>
+            <div class="tab1-right"><span>参赛信息</span></a>
+            </div>
+          </li>
+        </ul>
+        <div class="box-main">
+          <div class="box-mainAll">
+            <div class="box10 box1-1">
+              <div class="box-header">
+                <p>基本信息</p>
+                <div class="box-top">
+                  <form>
+                    <label for="name"> 用户名：</label>
+                    <input type="text" disabled value="dddd" class="username" id="name" required><br>
+                    <label for="class"> 账户类别：</label>
+                    <input type="text" disabled value="选手" class="accountClass" id="class" required><br>
+                    <label for="number"> 手机号：</label>
+                    <input type="text" disabled value="15530128175" class="phoneNumber" id="number" required
+                      pattern="^(13[0-9]|14[579]|15[0-3,5-9]|16[6]|17[0135678]|18[0-9]|19[89])\\d{8}$"><br>
+                    <label for="name1"> 姓名：</label>
+                    <input type="text" value="狄洪庆" class="name1" id="name1" required><br>
+                    <label for="name1"> 身份证号：</label>
+                    <input type="text" value="130927199603122111" class="idNumber" id="name1" pattern="\d{15}|\d{18}" required><br />
+                    <label for="email"> 邮箱：</label>
+                    <input type="email" value="1516689161@qq.com" class="email" id="email" required><br>
+                    <label for="text1"> 学校：</label>
+                    <input type="text" value="河北科技大学" class="school" id="text1" required><br>
+                    <label for="text2"> 专业：</label>
+                    <input type="text" value="软件工程" class="professional" id="text2" required><br>
+                    <label for="text3"> 年级：</label>
+                    <input type="text" value="16" class="grade" id="text3" required><br>
+                    <button class="btn7" style="margin-left: 100px;">更新信息</button>
+                    <button id="btn13" style="margin-left: 30px;">退出登录</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="box2  box1-1">
+              <div class="box-footer">
+                <p>暂无参赛信息</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- 底部 -->
+    <footer>
+      <div id="Tabbar">
+        <!-- 中间文本 -->
+        <div class="bottomLeft">
+          <div style="height: 60px; line-height: 50px; font-size: 14px; color: cornsilk;">友情链接：
+            <a href="#"> 天亮公开课资源 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#"> 尚云科技 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#"> 星云大数据平台 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#"> 天亮舆情监控系统 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#"> IT毕业设计 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#"> 网思安网络安全课堂 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+          </div>
+          <div class="box1">
+            copyright@版权所有 天亮教育 网站标识码：23667788978 备案编号：冀ICP备2356645765765
+          </div>
+          <div class="box1">
+            电子邮箱：623143506@qq.com 技术支持：河北尚云信息科技有限公司
+          </div>
+        </div>
+        <!-- 右边二维码 -->
+        <div class="publicNumber">
+          <img src="images/微信公众号.jpg" alt="">
+          <br>
+          <span style="font-size: 14px;">
+            微信公众号
+          </span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="lib/js/jquery-3.4.1.min.js"></script>
+<script src="js/个人中心.js"></script>
+<script src="js/头部和底部.js"></script>
+<script>
+  $("li").click(function () {
+    $(this).addClass("select").siblings().removeClass("select");
+    $(".box1-1").eq($(this).index()).show().siblings().hide();
+  });
+  $("#btn13").click(function(){
+    localStorage.clear();
+    window.open("./登录.html");
+  })
+</script>
+
+</html>

@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.box {
+    min-width: 1300px;
+    overflow: auto;
+}
+.pic {
+    width: 100%;
+    height: 400px;
+   /*  border: 1px solid red; */
+    background-image: url(../images/创新创业大赛.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box-main {
+    height: 1800px;
+}
+.box3 {
+    width: 200px;
+    height: 50px;
+    margin-left: 250px;
+ /*    border: 1px solid red; */
+}
+.box3 > .box3-2 a {
+    text-decoration: none;
+    color: #2d8cf0;
+}
+.box3 .a1 img {
+    width: 20px ;
+    height: 20px;
+    margin-top: 10px;
+    color: #2d8cf0;
+}
+.box3 .a2 {
+    text-align: center;
+    line-height: 30px;
+}
+.box3-1 {
+  /*   border: 1px solid yellow; */
+    float: left;
+}
+.box3-2 {
+    height: 30px;
+    margin-top: 5px;
+    line-height: 30px;
+  /*   border: 1px solid blue; */
+    float: left;
+}
+.box2 {
+    margin-top: 20px;
+   /*  border: 1px solid red; */
+}
+.box2 img {
+    margin-left: 100px;
+}
+.box4 {
+    /* border: 1px solid red; */
+    margin-left: 250px;
+  }
+ .box-main p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+ } 
+.box-all {
+    width: 1050px;
+    height: 1600px; 
+    font-size: 14px;
+   /*  border: 1px solid black; */
+    margin: auto;
+}
+.box-all-top {
+    height: 30px;
+    line-height: 30px;
+    text-indent: 16px;/* 首行缩进 */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: #b8b5c2;
+}
+.box-all-main {
+    height: 35px;
+    line-height: 35px;
+     margin-top: 20px;
+     margin-bottom: 10px;
+     margin-left: 150px;
+     text-indent: 16px;
+  }
+  .box-all-main > input {
+    width: 200px;
+    height: 30px;
+   /*  border-radius: 5px; */
+   /*  border: 1px solid #dcdee2; */
+  }
+  .box-all-main > select {
+    width: 200px;
+    height: 30px;
+    /* border-radius: 5px; */
+   /*  border: 1px solid #dcdee2; */
+  }
+  .box-all-footer {
+    margin-top: 20px;
+  }
+  .box-all-footer textarea {
+    width: 900px;
+    border-radius: 5px;
+    resize: none;/* 用户无法调整尺寸 */
+  }
+  button {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    /* text-align: center; */
+    border-radius: 4px;
+    margin-right: 30px;
+    /*   border: 1px solid #dcdee2; */
+    border: none;
+  }
+  .btn9 {
+    margin-left: 417px;
+    margin-top: 50px;
+  }
+  

@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.box {
+  min-width: 1300px;
+  overflow: auto;
+}
+.box-main {
+    height: calc(100vh - 60px);
+    width: 100%;
+    height: 500px;
+    background: url(../images/background.jpg);
+    overflow: hidden;
+}
+  .box-1 {
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: white;
+  }
+  h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: grey ; 
+  }
+  .box-in{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    line-height: 50px;
+   /*  border: 1px solid black; */
+  }
+  .box-inner {
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    
+   /*  border: 1px solid black; */
+  }
+  .box8 {
+    border-bottom: 2px solid #0469b3;
+  } 
+  .box-in-right a{
+     color: black;
+  }
+  .box-in  a {
+    height: 65px;
+    line-height: 65px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .box-out-1 {
+    height: 30px;
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+   
+  }
+  .pic ,.ico {
+    width: 30px;
+    height: 30px;
+    background-color: #dbdbdb;
+    float: left;
+    border: 1px solid gray;
+    border-right: none;
+  }
+  .pic > img {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .ico > img {
+    width: 20px;
+    height:20px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  input {
+      width: 210px;
+      height: 28px;
+  }
+  .box-out-2  > .btn {
+    width: 250px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 70px;
+    border: none;
+    float: right;
+    float: left;
+  }
+  .box-out-2  a {
+    text-decoration: none;
+    color: white;
+  }
+  .box-out-3 {
+      width: 250px;
+      height: 35px;
+      margin-top: 20px;
+      margin-left: 70px;
+      float: right;
+      float: left;
+      /* border: 1px solid black; */
+  }
+.box-out3-left {
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    /* border: 1px solid red; */
+    float: left;
+}
+.box-out3-right {
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    /* border: 1px solid red; */
+    float: right;
+}
+.box-out-3 a {
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+}

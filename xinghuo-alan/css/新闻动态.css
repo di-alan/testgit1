@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* .box {
+    width: 100%;
+    overflow: auto;
+} */
+
+/* 轮播图 */
+
+.jd_banner{
+    margin-top: 10px;
+    width: 100%;
+ 
+}
+.swiper-box {
+    height: 450px;
+}
+.swiper-box img {
+    width: 100%;
+    height: 100%;
+}
+/* 新闻动态 */
+ .mid-top {
+     width: 15%;
+     /* height: 54px; */
+    /*  border: 1px solid red; */
+     margin-top: 25px;
+     margin-bottom: 25px;
+     margin-left: 150px;
+ }
+ .mid-top img {
+     width: 146px;
+     height: 53px;
+ }
+ .box2 {
+    width: 100%;
+    height: 234px;
+    /*  border: 1px solid green; */
+    /*  margin:10px auto; */
+     position:relative
+    }
+.mid-bottom {
+ width: 15%;
+ margin-left: 150px;
+ border-right: 2px solid grey;
+ float: left;
+}
+.mid-right {
+ width: 1045px;
+ height: 200px;
+ margin-top: 25px;
+ margin-bottom: 20px;
+  border-bottom: 2px solid gray;
+ float: right;
+ }
+#tablist {
+ list-style:none;
+/*  border: 1px solid red; */
+ overflow:hidden;
+ }
+#tablist li {
+ margin-top: 20px;
+ margin-left: 30px;
+ margin-right:10px;
+ }
+.content-box {
+ width:85%;
+ height:200px;
+ position:absolute;
+ /* border:  1px solid yellowgreen; */
+ overflow:hidden;
+}
+
+.content {
+ width: 900px;
+ height: 150px;
+ margin-top:35px ;
+ /* border: 1px solid hotpink; */
+ clear:both;
+ color:black;
+ opacity:0;
+ position:absolute;
+}
+.contentin {
+ opacity:1;
+}
+.content h3 {
+ color: rgb(128, 128, 238);
+ margin-top: 20px;
+ margin-bottom: 25px;
+}
+.content .p1 {
+ font-size: 14px;
+ color: gray;
+ margin-bottom: 25px;
+}
+.content .p2 a {
+ font-size: 14px;
+ text-decoration: none;
+ color:  rgb(128, 128, 238);
+}
+/* QQ定位 */
+#QQ {
+    width: 110px;
+    height: 170px;
+    bottom: 80px;
+    margin-bottom: 50px;
+    right: 1px;
+    position: fixed;
+    z-index: 100;
+   /*  border: 1px solid red; */
+  }
+  #QQ > .QQ1 {
+    width: 80px;
+    height: 80px;
+    background: #e6f7ff;
+    margin-bottom: 5px;
+  }
+  #QQ > .QQ1 > img {
+      width: 40px;
+      height: 40px;
+      margin-top: 10px;
+      margin-left: 20px;
+  }
+  #QQ > .QQ1 > p {
+    margin-left: 10px;
+  }
+  #QQ > .QQ1 > p > a {
+    color: #00cf8c;
+    position: relative;
+  }
+  #qq {
+    width: 310px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    right: 110px;
+  /*   border: 1PX solid red */;
+    display: none;
+  }
+  #qq > div > img {
+    width: 150px;
+    height: 200px;
+    float: left;
+  }
+/* 页脚 */
+.box4 {
+    width: 100%;
+    height: 30px;
+    margin: 30px 0;
+  /*   border: 1px solid green; */
+}
+.box5 {
+    float: right;
+    margin-right: 100px;
+} 

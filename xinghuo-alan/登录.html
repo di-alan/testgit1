@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="shorcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/顶部和底部.css">
+    <link rel="stylesheet" href="css/登录.css">
+</head>
+
+<body>
+    <div class="box">
+        <!-- 头部 -->
+        <header class="top">
+            <div class="top-left">
+                <img src="images/logo.jpg" alt="">
+            </div>
+            <div id="btn12" class="top-right">
+                <button id="btn11" class="btn8"><a href="登录.html">登录</a></button>
+            </div>
+            <div class="top-mid">
+                <ul class="top-mid-bq">
+                    <li><a href="新闻动态.html">新闻动态</a></li>
+                    <li><a href="大赛报名.html">大赛报名</a></li>
+                    <li><a target="_blank" href="天亮社区.html">天亮社区</a></li>
+                    <li><a href="关于我们.html">关于我们</a></li>
+                    <li style="display: none;" id="li1"><a href="个人中心.html">个人中心</a></li>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <div class="box-main">
+                <div class="box-1">
+                    <h1>星火创新创业服务平台</h1>
+                    <div class="box-in">
+                        <div class="box8 box-inner">
+                            <a href="#">账号登录</a>
+                        </div>
+                        <div class=" box-inner ">
+                            <a href="#">手机登录</a>
+                        </div>
+                    </div>
+                    <div class="box-out">
+                        <div class="box-out1 ">
+                            <div class="box-out-1">
+                                <div class="pic">
+                                    <img src="images/小人.png">
+                                </div>
+                                <div>
+                                    <input id="username" type="text" placeholder="请输入用户名">
+                                </div>
+                            </div>
+                            <div class="box-out-1">
+                                <div class="ico">
+                                    <img src="images/小人.png">
+                                </div>
+                                <div>
+                                    <input id="password" type="password" placeholder="请输入密码">
+                                </div>
+                                </div>
+                                </div>
+                            <div class="box-out2" style="display: none;">
+                                    <div class="box-out-1">
+                                        <div class="pic">
+                                            <img src="images/小人.png">
+                                        </div>
+                                        <div>
+                                            <input id="username" type="text" placeholder="请输入用户名">
+                                        </div>
+                                    </div>
+                                    <div class="box-out-1">
+                                        <div class="ico">
+                                            <img src="images/手机.png">
+                                        </div>
+                                        <div style="float: left;">
+                                            <input id="password" type="text" style="width: 100px;" placeholder="请输入验证码">
+                                        </div>
+                                        <div style="float: left;">
+                                            <input
+                                                style="width: 85px; height: 32px;margin-left: 30px;background-color: cornflowerblue;color: cornsilk;border: none;border-radius: 5%; "
+                                                placeholder="获取验证码" class="btn6" id="btn6">
+                                        </div>
+                                  </div>
+                             </div>
+                        <div class="box-out-2 ">
+                            <button id="loginID" class="btn"><a href="#">登录</a></button>
+                            <!-- <input type="button" value="登录"> -->
+                        </div>
+                        <div class="box-out-3">
+                            <div class="box-out3-left"><a href="忘记密码.html">忘记密码</a></div>
+                            <div class="box-out3-right"><a href="注册.html">注册</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 底部 -->
+        <footer>
+            <div id="Tabbar">
+                <!-- 中间文本 -->
+                <div class="bottomLeft">
+                    <div style="height: 60px; line-height: 50px; font-size: 14px; color: cornsilk;">友情链接：
+                        <a href="#"> 天亮公开课资源 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        <a href="#"> 尚云科技 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        <a href="#"> 星云大数据平台 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        <a href="#"> 天亮舆情监控系统 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        <a href="#"> IT毕业设计 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        <a href="#"> 网思安网络安全课堂 &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    </div>
+                    <div class="box1">
+                        copyright@版权所有 天亮教育 网站标识码：23667788978 备案编号：冀ICP备2356645765765
+                    </div>
+                    <div class="box1">
+                        电子邮箱：623143506@qq.com 技术支持：河北尚云信息科技有限公司
+                    </div>
+                </div>
+                <!-- 右边二维码 -->
+                <div class="publicNumber">
+                    <img src="images/微信公众号.jpg" alt="">
+                    <br>
+                    <span style="font-size: 14px;">
+                        微信公众号
+                    </span>140612..
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="lib/js/jquery-3.4.1.min.js"></script>
+<script src="js/登录.js"></script>
+<script>
+    $(".box-inner").click(function () {
+        $(this).addClass("box8").siblings().removeClass("box8");
+       /*  $(".box-out-1 > div").eq($(this).index()).show().siblings().hide(); */
+    });
+    //登录
+    if (localStorage.isLogin) {
+      $("#btn12").hide();
+      $("#li1").show()
+    }else{
+      $("#btn12").show();
+      $("#li1").hide()
+    }
+
+    $("#btn6").click(function () {
+        var wait = 60;
+        /*    console.log(111) */
+        $('#btn6').attr('disabled', "true");//单击多次只执行一次
+        var time = setInterval(function () {
+            wait--;
+            $("#btn6").val(wait + "获取验证码");
+            if (wait == 0) {
+                clearInterval(time);
+                $("#btn6").val(60 + "获取验证码");
+            }
+        }, 1000);
+    });
+</script>
+
+</html>

@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    min-width: 1300px;
+    overflow: auto;
+}
+.top-right {
+    width: 70px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.top-right a {
+    text-decoration: none;
+    color: black;
+}
+.top-right>a {
+   color: #00cf8c;
+  /*  border-bottom: 2px solid  #00cf8c; */
+}
+.top-right {
+    border-bottom: 2px solid  #00cf8c;
+}
+.top-mid-bq > .tab {
+  font-size: 16px;
+}
+.main {
+    width: 100%;
+    height: 900px;  
+    margin-top: 10px;
+    background-color: #f5f7f9;
+    border-top: 1px solid #cccccc;
+}
+.box-all {
+    width: 950px;
+    height: 900px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.box-all ul {
+    margin-top: 30px;
+    width: 200px;
+    height: 100px;
+    border-right: 1px solid #f5f7f9;
+    float: left;
+}
+.box-all li {
+    width: 170px;
+    height: 50px;
+    padding-left: 30px;
+}
+.box-all li img {
+    width: 20px;
+    height: 20px;
+}
+.tab1-left {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-top: 13px;
+}
+.tab1-right {
+  width: 64px;
+  height: 21px;
+  float: left;
+}
+.select9 {
+  border-right: 2px solid #2d8cf0;
+  background-color: #b3cde9;
+}
+
+.box-all span {
+    text-align: center;
+    line-height: 50px;
+    color: #515a65;
+  }
+  .box-all li:hover {
+    border-right: 2px solid #2d8cf0;
+    background-color: #b3cde9;
+  }
+
+  .box-main {
+    width: 720px;
+    height: 800px;
+    float: right;
+    /* border: 1px solid blueviolet; */
+  }
+  .box-mainAll {
+    width: 100%;
+    height: 1000%;
+  }
+  .box10, .box2 {
+    width: 720px;
+    height: 800px;
+  }
+  .box-header,.box-footer{
+    margin: 50px auto;
+    width: 500px;
+    height: 650px;
+    margin-left: 60px;
+    /* border: 1px solid blue; */
+  }
+  .box-header p {
+      font-size: 22px;
+      margin-bottom: 30px;
+      color: #515a65;
+  }
+  .box-top input {
+    height: 30px;
+    width: 300px;
+    line-height: 30px;
+    background-color: #f3f3f3;
+    color: #ccc; 
+    border: 1px solid #e3e5e8;
+    border-radius: 4px;
+    margin-bottom: 30px; 
+  }
+  #name1 ,#email,#text1,#text2,#text3 {
+    color: #515a6e;
+    background-color:white;
+  }
+  label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    vertical-align: middle;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    color: #515a6e;
+    line-height: 1;
+    padding: 10px 5px 10px 0;
+    box-sizing: border-box;
+  }
+  button {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    background-color: #2baee9;
+    border: none;
+  }
+  .box-footer p {
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: #515a65;
+  }
+
+  
